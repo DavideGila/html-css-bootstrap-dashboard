@@ -30,6 +30,10 @@ nav {
     height: 50px;
 }
 
+#small-logo {
+    width: 50px;
+}
+
 main {
     width: 100%;
     height: calc(100% - 50px);
