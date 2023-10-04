@@ -16,9 +16,11 @@
 <body>
     <div class="wrapper">
         <header class="bg-body-tertiary">
-            <nav class="container-fluid bg-white">
+            <nav class="container-fluid bg-white pt-2">
                 <div class="row align-items-center">
-                    <div class="col-auto"> <img src="img/logo.svg" alt="">
+                    <div class="col-auto"> 
+                        <img src="img/logo.svg" alt="" class="d-none d-lg-block">
+                        <img src="img/mobile-logo.png" id="small-logo" class="d-lg-none d-md-block" alt="">
                     </div>
 
                     <div class="col">
@@ -30,10 +32,16 @@
                     </div>
 
                     <div class="col-auto">
-                        <i class="fa-solid fa-list p-3"></i>
-                        <i class="fa-solid fa-circle-question pe-3"></i>
-                        <i class="fa-solid fa-ellipsis-vertical pe-3"></i>
-                        <i class="fa-solid fa-bell" style="color: #da7c3d;"></i>
+                        <ul class="d-flex justify-content-around my-ul">
+                            <li class="px-2 d-none d-lg-block"><i class="fa-solid fa-list"></i></li>
+                            <li class="px-2 d-none d-lg-block"><i class="fa-solid fa-circle-question"></i></li>
+                            <li class="px-2 d-none d-lg-block"><i class="fa-solid fa-ellipsis-vertical"></i></li>
+                            <li class="px-2"><i class="fa-solid fa-bell" style="color: #da7c3d;"></i></li>
+                        </ul>
+                        
+                        
+                        
+                        
                     </div>
                 </div>
             </nav>
