@@ -62,3 +62,13 @@ main {
 th img {
     width: 25px;
 }
+
+@media screen and (max-width: 768px){
+    #side-bar {
+        width: 50px;
+    }
+
+    #main-content {
+        width: calc(100% - 50px);
+    }    
+}
