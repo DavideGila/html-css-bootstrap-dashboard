@@ -78,4 +78,8 @@ th img {
     #main-content {
         width: calc(100% - 65px);
     }    
+
+    .offcanvas {
+        width: 100% !important;
+    }
 }
