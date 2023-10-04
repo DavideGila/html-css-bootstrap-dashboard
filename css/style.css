@@ -26,6 +26,10 @@ body {
     margin: auto;
 }
 
+#logo {
+    padding: 10px 0 10px;
+}
+
 #small-logo {
     width: 50px;
 }
