@@ -68,10 +68,10 @@ th img {
 
 @media screen and (max-width: 768px){
     #side-bar {
-        width: 50px;
+        width: 65px;
     }
 
     #main-content {
-        width: calc(100% - 50px);
+        width: calc(100% - 65px);
     }    
 }
