@@ -21,6 +21,10 @@ body {
     height: 100vh;
 }
 
+.bg-body-tertiary nav {
+    height: 50px;
+}
+
 .my-ul {
     padding-left: 0;
     margin: auto;
