@@ -26,10 +26,6 @@ body {
     margin: auto;
 }
 
-nav {
-    height: 50px;
-}
-
 #small-logo {
     width: 50px;
 }
@@ -48,15 +44,14 @@ main {
     background-color: var(--color-side-bar);
 }
 
-#main-nav {
-    background-color: var(--color-nav-bar);
-    height: 90px;
-}
-
 #main-content {
     width: calc(100% - 150px); 
     height: 100%;
     overflow-y: auto;
+}
+
+.my-bg-primary {
+    background-color: #4d525b67;
 }
 
 th img {
